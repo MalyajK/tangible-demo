@@ -11,7 +11,7 @@
     "build": "cd tangible && npm run build",
     "install": "cd tangible && npm install",
     "heroku-postbuild": "cd tangible npm run install && npm run build",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Malyaj Kaloni",
   "license": "ISC",
