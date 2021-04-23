@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: "api/departments"
+  baseURL: "https://tangible-demo.herokuapp.com/api/departments"
 });

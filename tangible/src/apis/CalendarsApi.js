@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: "api/calendar"
+  baseURL: "https://tangible-demo.herokuapp.com/api/calendar"
 });

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: "api/tasks"
+  baseURL: "https://tangible-demo.herokuapp.com/api/tasks"
 });
 
