@@ -64,7 +64,7 @@ const routes = require('./routes');
 app.use('/api', routes);
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../tangible/build/index.html"))
+    res.sendFile(path.join(__dirname, "tangible/build/index.html"))
 })
 
 app.listen(port, ()=> {
@@ -75,5 +75,5 @@ app.listen(port, ()=> {
 
 // Deployment
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, "../tangible/build")))
+    app.use(express.static(path.join(__dirname, "tangible/build")))
 }
