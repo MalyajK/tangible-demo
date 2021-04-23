@@ -1,0 +1,26 @@
+#navbar-main {
+  width: 100%;
+  z-index: 2;
+}
+
+#navbar-logo {
+  height: 30px;
+  width: 42px;
+  margin-right: 10px;
+}
+
+#nav-items {
+  color:rgb(240, 240, 225);
+}
+
+#nav-items:hover {
+  border-bottom: 2px solid #E76F51;
+}
+
+#link {
+  color:black;
+}
+
+#link:hover {
+  text-decoration: none;
+}

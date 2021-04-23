@@ -1,0 +1,34 @@
+#goals-main {
+  text-align: center;
+  margin-left: 270px;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
+#goals-title-main {
+  font-weight: bold;
+}
+
+#goal-paper {
+  width: 340px;
+  height: 250px;
+  padding: 10px;
+  float: left;
+  margin: 20px;
+}
+
+#goal-paper-title{
+  font-weight: bold;
+}
+
+#goals-avatar {
+  height: 70px;
+  width: 70px;
+  float: left;
+}
+
+#settings-icon {
+  float: right;
+  margin-top: -35px;
+  color: slategrey
+}

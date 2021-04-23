@@ -1,0 +1,48 @@
+.register {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-title h3 {
+  font-weight: bold;
+  color: #063245;
+}
+
+#tangible-logo {
+  height: 75px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+span.input-group-text {
+  background-color: #063245;
+  border-color: #063245;
+}
+
+.login-icon {
+  color: #fafafa;
+}
+
+.register-button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex
+}
+
+#register-button {
+  flex: 1;
+  background-color: #e35729;
+  border: #e35729;
+  color: white 
+}
+
+.form-check-label input{
+  margin-right: 10px;
+}

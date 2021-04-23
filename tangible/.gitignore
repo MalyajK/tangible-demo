@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/tangible/node_modules
+/tangible/.pnp
+/tangible/.pnp.js
+
+# testing
+/tangible/coverage
+
+# spreadsheets
+/tangible/spreadsheets
+
+# misc
+/tangible/.DS_Store
+/tangible/.env.local
+/tangible/.env.development.local
+/tangible/.env.test.local
+/tangible/.env.production.local
+
+/tangible/npm-debug.log*
+/tangible/yarn-debug.log*
+/tangible/yarn-error.log*
+
+
+# backend
+/backend/node_modules
+/backend/.env

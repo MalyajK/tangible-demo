@@ -1,0 +1,58 @@
+#dash-main {
+  margin-left: 240px;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+#dash-tabs {
+  margin-bottom: 20px;
+}
+
+#dash-chart-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: slategrey;
+  margin-bottom: 10px;
+}
+
+#all-goals {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: auto;
+}
+
+#dep-goal-comp {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: auto;
+}
+
+#revenue {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: auto;
+}
+
+#expenses {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: auto;
+}
+
+#profit {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: auto;
+}
+
+#debtors {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: auto;
+}

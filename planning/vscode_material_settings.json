@@ -1,0 +1,61 @@
+{
+    "window.zoomLevel": 0,
+    "terminal.integrated.inheritEnv": false,
+    "editor.fontSize": 19,
+    "workbench.preferredHighContrastColorTheme": "Solarized Dark",
+    "workbench.preferredLightColorTheme": "Solarized Dark",
+    "workbench.preferredDarkColorTheme": "Solarized Dark",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.useTabStops": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.askForKernelRestart": false,
+    "customizeUI.activityBar": "regular",
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "Roboto Mono Light",
+    "customizeUI.font.monospace": "Hack",
+    "customizeUI.font.regular": "Avenir",
+    "breadcrumbs.enabled": false,
+    "customizeUI.titleBar": "regular",
+    "customizeUI.fontSizeMap": {
+        "13px": "14px"
+    },
+    "markdown.preview.fontFamily": "Roboto Mono Light",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": false,
+    "workbench.editorAssociations": [
+
+
+
+    ],
+    "terminal.integrated.fontFamily": "Roboto Mono Light",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "normal",
+    "python.terminal.launchArgs": [
+    
+    ],
+    "workbench.colorTheme": "Atom Material Theme",
+    "terminal.integrated.automationShell.linux": "",
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.automationShell.osx": "",
+    "workbench.colorCustomizations": {
+        
+        
+        "terminal.foreground": "#f2f3ec",
+        "terminal.background": "#202a2e",
+        "activityBar.background": "#135a5f",
+        "activityBar.foreground": "#ffffff",
+        "activityBar.activeBorder": "#ff0062",
+        "tab.activeBackground": "#2a423a",
+        "tab.hoverBackground": "#223d30",
+        "tab.activeBorder": "#2a423a",
+        "activityBar.inactiveForeground": "#b5c0b4",
+        "editorLineNumber.foreground": "#719689",
+        "editorLineNumber.activeForeground": "#ff0000",
+    },    
+}
