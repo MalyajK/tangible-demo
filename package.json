@@ -1,13 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "homepage": "https://tangible-demo.herokuapp.com/",
   "description": "Tangible Backed Application",
   "main": "index.js",
   "engines": {
     "node": "14.15.0",
     "npm": "6.14.10"
   },
-  "homepage": "https://tangible-demo.herokuapp.com/",
   "scripts": {
     "build": "cd tangible && npm run build",
     "install": "cd tangible && npm install",
