@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: "/api/notifications"
+  baseURL: "api/notifications"
 });
