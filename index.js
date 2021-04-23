@@ -67,11 +67,11 @@ app.use('/api', routes);
 
 // Deployment
 if (process.env.NODE_ENV === 'production') {
-    app.use('/static', express.static(path.join(__dirname, "tangible/build")))
+    app.use(express.static(path.join(__dirname, 'tangible', 'build')))
 }
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "tangible/build/index.html"))
+    res.sendFile('index.html', path.join(__dirname, 'tangible', 'build'))
 });
 
 app.listen(port, ()=> {
