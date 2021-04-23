@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Tangible Backed Application",
   "main": "index.js",
+  "engines": {
+    "node": "14.15.0",
+    "npm": "6.14.10"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd ../tangible && npm run build",
-    "install": "cd ../tangible && npm install",
-    "heroku-postbuild": "npm run install && npm run build",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "heroku-postbuild": "cd ../client npm run install && npm run build"
   },
   "author": "Malyaj Kaloni",
   "license": "ISC",
