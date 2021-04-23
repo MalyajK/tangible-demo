@@ -75,5 +75,5 @@ app.listen(port, ()=> {
 
 // Deployment
 if (process.env.NODE_ENV === 'production') {
-    app.use('/static', express.static(path.join(__dirname, "tangible/build")))
+    app.use('/static', express.static(path.join(__dirname, "tangible/build/index.html")))
 }
