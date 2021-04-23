@@ -10,7 +10,10 @@ const devConfig = {
 }
 
 const proConfig = {
-  connectionString: process.env.DATABASE_URL // will come from Heroku add-ons
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  } // will come from Heroku add-ons
 }
 
 const pool = new Pool(
