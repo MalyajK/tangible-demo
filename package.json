@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "nodemon index.js",
-    "heroku-postbuild": "cd ../client npm run install && npm run build"
+    "heroku-postbuild": "cd ../tangible npm run install && npm run build"
   },
   "author": "Malyaj Kaloni",
   "license": "ISC",
