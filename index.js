@@ -63,17 +63,17 @@ app.use(express.json());
 const routes = require('./routes');
 app.use('/api', routes);
 
-// app.get("*", (req, res) => {
-//     res.sendFile(path.join(__dirname, "tangible/build/index.html"))
-// })
-
-app.listen(port, ()=> {
-    console.log(`Server listening on port ${port}....`);
-})
-
 // app.use(express.static(path.join(__dirname, "../tangible/build")))
 
 // Deployment
 if (process.env.NODE_ENV === 'production') {
-    app.use('/static', express.static(path.join(__dirname, "tangible/build/index.html")))
+    app.use('/static', express.static(path.join(__dirname, "tangible/build")))
 }
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "tangible/build/index.html"))
+});
+
+app.listen(port, ()=> {
+    console.log(`Server listening on port ${port}....`);
+})
