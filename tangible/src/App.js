@@ -45,6 +45,7 @@ function App() {
             <Route path="/hr/" component={HrRouter} />
             <Route path="/finance/" component={FinanceRouter} />
             <Route path="/sales/" component={SalesRouter} />
+            <Route path="/login" component={LogoutPage} />
             <Route path="/notifications/" component={NotificationsRouter} />
           </Switch>
         </React.Fragment>
