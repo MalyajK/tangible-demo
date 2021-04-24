@@ -85,8 +85,6 @@ const CreateLead = () => {
     getUserId();
   }, [user.email]);
 
-  console.log(userId.user_id);
-
   const chartData = [
     {
       name: "JAN",

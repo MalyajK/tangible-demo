@@ -17,6 +17,7 @@ const SidebarNav = styled.nav`
   position: fixed;
   top: 0;
   z-index: 1;
+  overflow-y: scroll;
 `;
 
 const SidebarWrap = styled.div`

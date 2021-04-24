@@ -13,7 +13,7 @@ export default function Avatar() {
   return (
     <div
       style={{
-        marginTop: "35px",
+        marginTop: "px",
         color: "#264653",
         textAlign: "center",
         borderStyle: "solid",
