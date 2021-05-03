@@ -26,7 +26,7 @@ function App() {
 
   if (isAuthenticated) {
     return (
-      <UserContext.Provider value={parseInt(user.nickname)}> 
+      <UserContext.Provider value={user.name === 'Tangible Guest' ? 7 : parseInt(user.nickname)}> 
         <React.Fragment>
           <NavbarMain />
           <Sidebar />
